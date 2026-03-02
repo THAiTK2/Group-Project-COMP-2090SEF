@@ -1,1 +1,7 @@
-
+# creat a matrix (method1):
+  matrix_name = [
+    [n1, n2,..], 
+    [.....], 
+    [.....]
+]
+#
