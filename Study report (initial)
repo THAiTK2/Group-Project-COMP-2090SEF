@@ -1,4 +1,9 @@
-1.Introduction :
+Introduction :
       Data structures and algorithms are indispensable components of constructing large programming , permeated in all walks of life . Efficient data representation and algorithmic problem solving uplift the performance and scale of data driven systems. 
 This report aims to explore the matrix data structure as an abstract data type and Dijkstra’s algorithm as a classical shortest path algorithm, with explanations and examples implemented in Python.
+
+Data structure: 
+      Matrix 
+
+Application:
 
