@@ -3,7 +3,7 @@ Introduction :
 This report aims to explore the matrix data structure as an abstract data type and Dijkstra’s algorithm as a classical shortest path algorithm, with explanations and examples implemented in Python.
 
 Data structure: 
-      Matrix  represents a two dimensional collection of elements arranged in rows and columns.A matrix is a 2D rectangular arrangement of numbers in rows and columns, widely used in mathematics, computer science, data analysis etc. In Python, matrices provide a useful way to represent and manipulate multi-dimensional data. They are vital for solving linear algebra problems, performing image transformations. Compare to other data structure, such as list, matrix has faster access O(1) to any element by using indices to locate.    
+      A matrix is a 2D rectangular arrangement of numbers in rows and columns, widely used in mathematics, computer science, data analysis etc. In Python, matrices provide a useful way to represent and manipulate multi-dimensional data. They are vital for solving linear algebra problems, performing image transformations. Compare to other data structure, such as list, matrix has faster access O(1) to any element by using indices to locate.    
 
 Application:
             
