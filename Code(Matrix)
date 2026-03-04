@@ -1,7 +1,10 @@
-# creat a matrix (method_1):
+# creat a matrix :
   matrix_name = [
-    [n1, n2,..], 
+    [n1, n2,..],     # method_1
     [.....], 
     [.....]
 ]
-#
+#the number of rows and columns are determined by user 
+
+#method_2:
+
