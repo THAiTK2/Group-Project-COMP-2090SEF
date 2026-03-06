@@ -26,7 +26,7 @@ Task 3
 ```
 ---
 
-## Core function and technology
+## Core function and technology 
 1. The system upports three user interface: Teacher, Coach and Student, each with specific permission(eg. only teacher and coach can edit the team member)
 2. The system automatically check students who do not achieve the acadmic standards (GPA larger than 2.0) or attendance requirements.
 3. The system tracks standardizes performance across different sport teams (eg Goals for Football, Point Per Game for Basketball)
@@ -34,7 +34,7 @@ Task 3
 
 ---
 
-## The usage of OOP concept
+## The usage of OOP concept (to be continued in more detail and image)
 ### Encapsulation
 The system use private attribute(__gpa,__attendance_rate) to protect sensitive student data.
 
@@ -46,3 +46,20 @@ The system uses the polymorphism in performance calcutetion and unit. ```calcula
 
 ### Abstraction
 The system use Abstract Base Classes (ABC) to set blueprints.
+
+---
+
+## Something may improve or add(if have time)
+1. Replace CLI to website
+2. Add new modules (ingury record system, other teams)
+3. Use SQLite instead of Json for better data handling
+
+---
+
+## Project Links( to be continued)
+1. Project report:
+2. Intrduction Video
+
+---
+
+## References (to be continued)
