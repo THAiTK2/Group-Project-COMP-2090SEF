@@ -24,6 +24,11 @@ Task 3
 ├─ models.py # models of Class (teacher, student, coach, team, useraccount)
 ├─ data.json # dataset for saving input data
 ```
+
+---
+## How to run (to be continued)
+
+
 ---
 
 ## Core function and technology 
