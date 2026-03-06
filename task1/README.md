@@ -4,7 +4,7 @@
 ---
 
 ## Introduction 
-In contemporary education enviroments, teachers manage many sports team using Excel or paper. This is very slow because the diversification of sports teams has outpaced traditional adminstrative methods. This project aims to improve  the following problems.
+In contemporary education enviroments, teachers manage many sports team using Excel or paper. This is very slow because the diversification of sports teams has outpaced traditional adminstrative methods. This project aims to improve the following problems.
 
 1. we want to increase the administrative efficiency. Teachers need to spend more time to manage scattered Excel sheets and manual registrations. MSUTMS centralizes data concerning students, coaches and teams through a single interface.
 
@@ -14,6 +14,8 @@ In contemporary education enviroments, teachers manage many sports team using Ex
 
 4. Finally, there is a risk of data loss or versioning issues when useing local spreadsheet files. MSUTMS uses JSON file to store and update the records efficiently.
 
+---
+
 ## Project Structure
 ```
 Task 3
@@ -21,3 +23,26 @@ Task 3
 ├─ logic.py # logic for validation, save/load, mangement system
 ├─ models.py # models of Class (teacher, student, coach, team, useraccount)
 ├─ data.json # dataset for saving input data
+```
+---
+
+## Core function and technology
+1. The system upports three user interface: Teacher, Coach and Student, each with specific permission(eg. only teacher and coach can edit the team member)
+2. The system automatically check students who do not achieve the acadmic standards (GPA larger than 2.0) or attendance requirements.
+3. The system tracks standardizes performance across different sport teams (eg Goals for Football, Point Per Game for Basketball)
+4. The system use json to save and load data.
+
+---
+
+## The usage of OOP concept
+### Encapsulation
+The system use private attribute(__gpa,__attendance_rate) to protect sensitive student data.
+
+### Inheritance
+The system uses a hierachical structure to reduce the code duplication and create hierarchical relationships between categories.
+
+### Polymorphism
+The system uses the polymorphism in performance calcutetion and unit. ```calculate_performance()``` and ```performance_unit``` are called for all teams but the execution logic changes based on the sport.
+
+### Abstraction
+The system use Abstract Base Classes (ABC) to set blueprints.
