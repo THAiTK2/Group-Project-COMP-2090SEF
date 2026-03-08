@@ -55,6 +55,8 @@ Hierachical Structure: ```subclasses``` -->(inherit form)  ```parent class```
 ### Polymorphism
 The system uses the polymorphism in performance calcutetion and unit. ```calculate_performance()``` and ```performance_unit``` are called for all teams but the execution logic changes based on the sport.
 <p><img src="/assert/image/Polymorphism_1.png" height="500"></p>
+<p><img src="/assert/image/Polymorphism_2.png" height="500"></p>
+
 ### Abstraction
 The system use Abstract Base Classes (ABC) to set blueprints.
 
