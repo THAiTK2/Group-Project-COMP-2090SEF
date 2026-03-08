@@ -59,6 +59,12 @@ The system uses the polymorphism in performance calcutetion and unit. ```calcula
 
 ### Abstraction
 The system use Abstract Base Classes (ABC) to set blueprints.
+1.```Person(ABC)``` defines the essential properties(```name```,```member_id```) and
+let subclasses to implement ```get_role_details()```
+<img src="/assert/image/abstract_1.png" height="500">
+2.```SportTeam(ABC) defines the shared structure of a team of a team but leaves ```calculate_performance()``` and ```performance_unit()``` to be defined by specific sports
+<img src="/assert/image/abstract_2.png" height="500">
+
 
 ---
 
