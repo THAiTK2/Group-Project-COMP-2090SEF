@@ -42,7 +42,7 @@ Task 3
 ## The usage of OOP concept (to be continued in more detail and image)
 ### Encapsulation
 The system use private attribute(__gpa,__attendance_rate) to protect sensitive student data.
-<p><img src="/assert/image/encapsulation_1.png"></p>
+<p><img src="/assert/image/encapsulation_1.png" hight="300"></p>
 
 ### Inheritance
 The system uses a hierachical structure to reduce the code duplication and create hierarchical relationships between categories.
