@@ -15,7 +15,7 @@ class Person(ABC):
 # Student model with encapsulated GPA and attendance validation.
 class Student(Person):
     def __init__(self, name, member_id, gpa, attendance_rate):
-        super().__init__(name=name, member_id=member_id)
+        super().__init__(name, member_id)
         self.__gpa = 0.0
         self.__attendance_rate = 0.0
         self.gpa = gpa
@@ -57,7 +57,7 @@ class Student(Person):
 # Coach model.
 class Coach(Person):
     def __init__(self, name, member_id, specialization):
-        super().__init__(name=name, member_id=member_id)
+        super().__init__(name, member_id)
         self.specialization = specialization.strip()
 
     def get_role_details(self):
@@ -111,7 +111,7 @@ class SportTeam(ABC):
 # Football team uses goals scored.
 class FootballTeam(SportTeam):
     def __init__(self, team_name, coach, goals_scored):
-        super().__init__(team_name=team_name, coach=coach)
+        super().__init__(team_name, coach)
         self.goals_scored = int(goals_scored)
 
     def calculate_performance(self):
@@ -124,7 +124,7 @@ class FootballTeam(SportTeam):
 # Basketball team uses points per game.
 class BasketballTeam(SportTeam):
     def __init__(self, team_name, coach, points_per_game):
-        super().__init__(team_name=team_name, coach=coach)
+        super().__init__(team_name, coach)
         self.points_per_game = float(points_per_game)
 
     def calculate_performance(self):
