@@ -73,7 +73,7 @@ let subclasses to implement ```get_role_details()```
 
 ## Something may improve or add(if have time)
 1. Replace CLI to website
-2. Add new modules (ingury record system, other teams)
+2. Add new modules (ingury record system, other teams, other type of calucated performances/units)
 3. Use SQLite instead of Json for better data handling
 
 ---
