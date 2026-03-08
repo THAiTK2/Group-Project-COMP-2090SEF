@@ -29,8 +29,8 @@ Task 3
 ## How to run 
 step 1: open the terminal and run ```main.py``` <br>
 step 2: login
-*username: admin
-*password: 1234
+* username: admin
+* password: 1234
 
 ---
 
