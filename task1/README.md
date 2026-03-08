@@ -45,7 +45,11 @@ The system use private attribute(__gpa,__attendance_rate) to protect sensitive s
 <p><img src="/assert/image/encapsulation_1.png" height="500"></p>
 
 ### Inheritance
-The system uses a hierachical structure to reduce the code duplication and create hierarchical relationships between categories.
+The system uses a hierachical structure to reduce the code duplication and create hierarchical relationships between categories. 
+1.Hierachical Structure: ```subclasses``` -->(inherit form)  ```parent class``` 
+* ```Student```,```Coach```,```Teacher``` --> ```Person```
+* ```FootballTeam```,```BasketballTeam```,```BadmintonTeam```,```SwimmingTeam```,```TrackAndFieldTeam```,```HandballTeam``` --> ```SportTeam```
+2.Code Reuse:  subclasses like ```FootballTeam``` inherit the ```team_name```, ```coach``` attributes and ```add_member``` logic from parent class ```SportTeam```.We don't need to rewrite them.
 
 ### Polymorphism
 The system uses the polymorphism in performance calcutetion and unit. ```calculate_performance()``` and ```performance_unit``` are called for all teams but the execution logic changes based on the sport.
