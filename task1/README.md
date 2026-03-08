@@ -41,7 +41,7 @@ Task 3
 
 ## The usage of OOP concept (to be continued in more detail and image)
 ### Encapsulation
-The system use private attribute(__gpa,__attendance_rate) to protect sensitive student data.
+The system use private attribute(__gpa,__attendance_rate) to protect sensitive student data. The actual data (__gpa) is hidden inside the object.We set the ```@gpa.setter``` becasue we don't want the user touch the __gpa directly. In ```@gpa.setter```, we require the user input/set suitable gpa value between 0.0 to 4.0 range. It can avoid user to set the student gpa 9999 leading system crash.
 <p><img src="/assert/image/encapsulation_1.png" height="500"></p>
 
 ### Inheritance
