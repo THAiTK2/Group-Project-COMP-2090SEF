@@ -17,6 +17,8 @@ B = numpy.array([[5, 6], [7, 8]])
 # Matrix operations
 print(A + B)   # Matrix addition 
 
+print(A-B)     # Matrix subtraction
+
  # Matrix multiplication
 print(A @ B)   OR  print(np.matmul(A,B)) 
 
