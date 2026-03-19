@@ -1,38 +1,47 @@
+city_map = {
+    'Home': {'A': 5, 'B': 2},
+    'A': {'Home': 5, 'C': 4},
+    'B': {'Home': 2, 'C': 1, 'D': 7},
+    'C': {'A': 4, 'B': 1, 'Work': 3},
+    'D': {'B': 7, 'Work': 2},
+    'Work': {'C': 3, 'D': 2}
+}
+
 import heapq
 
-def dijkstra(graph, start)
-    distances = {node: float('inf') for node in graph}      # Initialize distances
+def dijkstra(graph, start):
+    distances = {node: float('inf') for node in graph}
     distances[start] = 0
-    
-
-    pq = [(0, start)]      # Priority queue (min-heap)
+    pq = [(0, start)]
+    previous = {node: None for node in graph}  # track path
     
     while pq:
         current_distance, current_node = heapq.heappop(pq)
         
-       
-        if current_distance > distances[current_node]:  # Skip if we already found a shorter path
+        if current_distance > distances[current_node]:
             continue
         
-        # Explore neighbors
         for neighbor, weight in graph[current_node].items():
             distance = current_distance + weight
             if distance < distances[neighbor]:
                 distances[neighbor] = distance
+                previous[neighbor] = current_node
                 heapq.heappush(pq, (distance, neighbor))
     
-    return distances
+    return distances, previous
 
-# City map (graph representation)
-city_map = {
-    'A': {'B': 4, 'C': 2},
-    'B': {'A': 4, 'C': 1, 'D': 5},
-    'C': {'A': 2, 'B': 1, 'D': 8, 'E': 10},
-    'D': {'B': 5, 'C': 8, 'E': 2},
-    'E': {'C': 10, 'D': 2}
-}
+def shortest_path(graph, start, end):
+    distances, previous = dijkstra(graph, start)
+    path = []
+    current = end
+    while current is not None:
+        path.append(current)
+        current = previous[current]
+    path.reverse()
+    return path, distances[end]
 
-# Find shortest paths from home (A)
-shortest_paths = dijkstra(city_map, 'A')
-print(shortest_paths)
+# Example usage
+path, time = shortest_path(city_map, 'Home', 'Work')
+print("Shortest path:", path)
+print("Travel time:", time)
 
