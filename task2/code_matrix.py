@@ -19,7 +19,8 @@ print(A + B)   # Matrix addition
 
 print(A-B)     # Matrix subtraction
 
- # Matrix multiplication
-print(A @ B)   OR  print(np.matmul(A,B)) 
+print(A*4)     # Scalar Multiplication
+
+print(A @ B)   OR  print(np.matmul(A,B))    # Matrix multiplication 
 
 print(A.T)     # Transpose. Element in matrix A will be re-arranged order by column. 
