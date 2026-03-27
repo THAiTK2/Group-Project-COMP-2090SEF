@@ -24,3 +24,31 @@ print(A*4)     # Scalar Multiplication
 print(A @ B)   OR  print(np.matmul(A,B))    # Matrix multiplication 
 
 print(A.T)     # Transpose. Element in matrix A will be re-arranged order by column. 
+
+
+
+# Adjacency Matrix
+import numpy as np
+
+def create_adjacency_matrix(graph):
+    nodes = list(graph.keys())
+    n = len(nodes)
+    
+    # Initialize matrix with infinity (no connection)
+    matrix = [[float('inf')] * n for _ in range(n)]
+    
+    # Fill in edges
+    for i, node in enumerate(nodes):
+        for neighbor, weight in graph[node].items():
+            j = nodes.index(neighbor)
+            matrix[i][j] = weight
+    
+    return nodes, matrix
+
+# Example usage
+nodes, adj_matrix = create_adjacency_matrix(city_map)
+
+# Pretty print
+print("Nodes:", nodes)
+print("Adjacency Matrix:")
+print(np.array(adj_matrix))
