@@ -1,4 +1,4 @@
-# Creat a matrix :
+# Create a matrix :
   matrix_name = [
     [n1, n2,..],            # method_1
     [.....], 
