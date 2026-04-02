@@ -1,4 +1,4 @@
-COMP2090SEF Task 2
+# COMP2090SEF Task 2
 Usesr Guide for python matrix :
 
 Method of creating a 2D matrix:
