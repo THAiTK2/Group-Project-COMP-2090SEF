@@ -41,3 +41,19 @@ default is order by row
   - ‘distances’:  is a dictionary storing shortest known distance to each node.
   - ‘pq’:  Priority queue (min-heap) to always process the closest node next.
   - ‘previous’: is a dictionary to track the path (who led to each node).
+
+Procedure:
+1. Initialize all distances to infinity, except the start node (0) lin13.
+2. Use a priority queue to explore nodes with the smallest current distance.
+3. For each node, calculate the new distance.
+4. If it’s shorter than the known distance, update it and record the path.
+5. Repeat until all nodes are processed.
+
+<br><p><img src="/assert/image/function_2.png" height="1000" width="1500"></p>
+•	Function 2: shortest_path(graph, start, end) By using the dijkstra(graph, start) function to find the shortest path from ‘start’ to ‘end’. 
+
+Procedure:
+1. Calls ‘dijkstra’ to get distances and previous nodes.
+2. Reconstructs the path by walking backward from `end` to `start` using ‘previous’.
+3. Reverses the path to get correct order.
+4. Returns the path and the costing time.
