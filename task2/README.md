@@ -28,4 +28,8 @@ Both ways perform the same result.
 Rearrange the matrix by column first. That is
 default is order by row
 
+---
 
+### Major components about Dijkstra’s algorithm :
+
+•	Create a dictionary storing known distance to each import min-heap priority queue.
