@@ -11,9 +11,21 @@ Line 3,4:  Outcome with method 2 (using numpy)
 ### Basic Matrix operation:
 <p><img src="/assert/image/addition.png" height="500" width="500"></p>  Addition:   Simply use the add symbol to let two matrices add together.<br>
 
-<br><p><img src="/assert/image/subtraction.png" height="500" width="500"></p> Subtraction: Similarly, use the minus symbol to conduct the subtraction of two 
+<br><p><img src="/assert/image/subtraction.png" height="500" width="500"></p> Subtraction: Similarly, use the minus symbol to conduct the subtraction of two matrices.
 
-<br><p><img src="/assert/image/scalar.PNG" height="500" width="500"></p>
-<p><img src="/assert/image/Multiple.PNG" height="500" width="500"></p>
-<p><img src="/assert/image/transpose.PNG" height="500" width="500"></p>
+<br><p><img src="/assert/image/scalar.PNG" height="500" width="500"></p> Scalar Multiplication: Allowing matrix to multiply a real number.
+
+*Scalar: the value without any positive, negative or direction meaning *
+
+<br><p><img src="/assert/image/Multiple.PNG" height="500" width="500"></p> Matrix Multiplication (two ways):
+1.	Use “@” symbol 
+2.	Numpy built in function: .matmul()
+
+Both ways perform the same result.
+
+<br><p><img src="/assert/image/transpose.PNG" height="500" width="500"></p> Transpose:
+
+Rearrange the matrix by column first. That is
+default is order by row
+
 
