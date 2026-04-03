@@ -13,4 +13,6 @@ Line 3,4:  Outcome with method 2 (using numpy)
 
 <p><img src="/assert/image/subtraction.png" height="500" width="500"></p>
 <p><img src="/assert/image/scalar.PNG" height="500" width="500"></p>
+<p><img src="/assert/image/Multiple.PNG" height="500" width="500"></p>
+<p><img src="/assert/image/transpose.PNG" height="500" width="500"></p>
 
