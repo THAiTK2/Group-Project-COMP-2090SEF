@@ -9,4 +9,7 @@ Line 1: Outcome with method 1 <br>
 Line 3,4: Outcome with method 2 (using numpy)
 
 ### Basic Matrix operation:
-<p><img src="/assert/image/addition.png" height="500" width="500"></p>
+<p><img src="/assert/image/addition.png" height="500" width="500"></p>  Addition: Simply use the add symbol to let two matrices add together.
+
+
+
