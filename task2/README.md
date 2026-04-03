@@ -31,5 +31,5 @@ default is order by row
 ---
 
 ### Major components about Dijkstra’s algorithm :
-
+<p><img src="/assert/image/city_map.png" height="500" width="500"></p>
 •	Create a dictionary storing known distance to each import min-heap priority queue.
