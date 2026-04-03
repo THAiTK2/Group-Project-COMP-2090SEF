@@ -11,5 +11,6 @@ Line 3,4:  Outcome with method 2 (using numpy)
 ### Basic Matrix operation:
 <p><img src="/assert/image/addition.png" height="500" width="500"></p>  Addition:   Simply use the add symbol to let two matrices add together.
 
+<p><img src="/assert/image/subtraction.png" height="500" width="500"></p>
 
 
