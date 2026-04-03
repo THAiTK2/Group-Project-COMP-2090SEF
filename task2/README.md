@@ -33,3 +33,11 @@ default is order by row
 ### Major components about Dijkstra’s algorithm :
 <p><img src="/assert/image/city_map.png" height="500" width="500"></p>
 •	Create a dictionary storing known distance to each import min-heap priority queue.
+
+<br><p><img src="/assert/image/function_1.png" height="1000" width="1500"></p>
+•	Import min-heap priority queue. (A heap is a special tree-based structure where the smallest or largest element is always at the root.)
+
+•	Function 1: dijkstra(graph, start): finds the shortest distance from the ‘start’ node to every other node:
+  - ‘distances’:  is a dictionary storing shortest known distance to each node.
+  - ‘pq’:  Priority queue (min-heap) to always process the closest node next.
+  - ‘previous’: is a dictionary to track the path (who led to each node).
