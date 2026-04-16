@@ -32,13 +32,19 @@ default is order by row
 
 ## Application of matrix : Adjacency Matrix for undirected graph 
 ## Core components:
-<br><p><img src="/assert/image/A. matrix _1.png" height="500" width="500"></p>
+<br><p><img src="/assert/image/A. matrix _1.png" height="1500" width="1000"></p>
 The add_edge function creates a connection between vertex i and vertex j.
 
 
-<br><p><img src="/assert/image/A. matrix _2.png" height="500" width="500"></p>
-
+<br><p><img src="/assert/image/A. matrix _2.png" height="1500" width="1000"></p>
 This prints a 2D matrix  list, converting  each number to a string and joins them with spaces.
+
+
+<br><p><img src="/assert/image/A. matrix _3.png" height="1500" width="1000"></p>
+Initialization: V = 4 creates a 4*4 matrix filled with zeros ,representing 4 vertices (labeled 0, 1, 2, and 3) with no connections.
+
+
+<br><p><img src="/assert/image/A. matrix _4.png" height="1500" width="1000"></p>
 
 
 ## Major components about Dijkstra’s algorithm :
