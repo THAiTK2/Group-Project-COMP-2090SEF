@@ -1,4 +1,9 @@
 # COMP2090SEF Task 2
+
+## Video introduction
+<video src="https://drive.google.com/drive/folders/1AobwiWPJpvqmKytiDaQRUfuDMgFu2hHb?usp=sharing" width="600" controls> Your browser does not support the video tag.
+<video>
+
 ## Usesr Guide for python matrix :
 
 ---
