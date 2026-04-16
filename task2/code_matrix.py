@@ -27,7 +27,7 @@ print(A.T)     # Transpose. Element in matrix A will be re-arranged order by col
 
 
 
-#Application of matrix : Adjacency Matrix
+#Application of matrix : Adjacency Matrix for undirected graph 
 def add_edge(mat, i, j):
   
     # Add an edge between two vertices
