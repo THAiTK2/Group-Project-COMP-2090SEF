@@ -33,7 +33,7 @@ default is order by row
 ## Application of matrix : Adjacency Matrix for undirected graph 
 ## Core components:
 <p><img src="/assert/image/step_1.png" height="500" width="500"></p>
-Creates a connection between vertex i and vertex j.
+The add_edge function creates a connection between vertex i and vertex j.
 
 
 
