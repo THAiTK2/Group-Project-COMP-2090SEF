@@ -1,3 +1,5 @@
+
+
 # COMP2090SEF Task 2
 
 ## Video introduction
@@ -6,8 +8,9 @@
 ## Usesr Guide for python matrix :
 
 ---
+### Method of creating 
 
-### Method of creating a 2D matrix:
+a 2D matrix:
 <p><img src="/assert/image/create.png" height="500"></p>
 Line 1:  Outcome with method 1 <br>
 Line 3,4:  Outcome with method 2 (using numpy)
