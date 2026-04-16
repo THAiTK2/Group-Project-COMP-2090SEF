@@ -1,9 +1,7 @@
 # COMP2090SEF Task 2
 
 ## Video introduction
-<video src="./assets/video/task2.mp4" width="100%" controls>
-  您的瀏覽器不支援影片播放。
-</video>
+
 
 ## Usesr Guide for python matrix :
 
