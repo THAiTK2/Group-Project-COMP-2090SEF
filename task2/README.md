@@ -3,7 +3,7 @@
 # COMP2090SEF Task 2
 
 ## Video introduction
-<video src="https://raw.githubusercontent.com/THAiTK2/Group-Project-COMP-2090SEF/assets/video/task2.mp4" width="100%" controls>
+<video src="[https://raw.githubusercontent.com/THAiTK2/Group-Project-COMP-2090SEF/assets/video/task2.mp4](https://drive.google.com/file/d/1hCcJaOjyVVENd5tyBkIiokf_sdta4hkn/view?usp=drive_link)" width="100%" controls>
 </video>
 
 
