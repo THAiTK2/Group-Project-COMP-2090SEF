@@ -34,7 +34,7 @@ default is order by row
 ## Core components:
 <p><img src="/assert/image/A. matrix _1.png" height="500" width="500"></p>
 The add_edge function creates a connection between vertex i and vertex j.
-
+<p><img src="/assert/image/A. matrix _2.png" height="500" width="500"></p>
 
 
 
