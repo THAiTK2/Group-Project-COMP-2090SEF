@@ -48,6 +48,17 @@ if ```python``` does not work on Windows, try:
 py main.py
 ```
 
+## 6) Default Login (for demo)
+- Username: ```admin```
+- Password: ```1234```
+
+## 7) Main File Structure
+- ```main.py```: GUI layer
+- ```logic.py```: service logic
+- ```repositories.py```: database CRUD operations
+- ```database.py```: SQLite connection + schema initialization
+- ```models.py```: OOP domain classes 
+
 ---
 
 ## Video introduction
