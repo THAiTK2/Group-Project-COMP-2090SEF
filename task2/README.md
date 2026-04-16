@@ -3,7 +3,7 @@
 # COMP2090SEF Task 2
 
 ## Video introduction
-<video src="/assets/video/task2.mp4" width="100%" controls> </video>
+since the video file too large, it cannot show in the readme. We put the video into ```assets/video``` folder
 
 
 
