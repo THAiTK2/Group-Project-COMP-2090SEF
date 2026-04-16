@@ -1,9 +1,10 @@
 # Multi-Sport University Team Management System (MSUTMS)
 
-A application for university sport teams 
+An application for university sport teams 
 
 ## Requirement 
-
+- Visual Studio Code
+- Python extension for VSCode
 - Python 3.10+
 - pip
 
@@ -14,7 +15,7 @@ A application for university sport teams
 git clone https://github.com/THAiTK2/Group-Project-COMP-2090SEF.git
 ```
 
-### 2) Enter Task 1 foler 
+### 2) Enter Task 1 folder 
 ```bash 
 cd task1
 ```
@@ -23,7 +24,7 @@ cd task1
 macOS/Linux
 ```bash
 python3 -m venv .venv
-source .venv/bin/active
+source .venv/bin/activate
 ```
 
 Windows(PowerShell)
@@ -46,3 +47,7 @@ if ```python``` does not work on Windows, try:
 ```cmd
 py main.py
 ```
+
+---
+
+## Video introduction
