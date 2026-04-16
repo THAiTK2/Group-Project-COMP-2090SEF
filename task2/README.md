@@ -3,6 +3,9 @@
 # COMP2090SEF Task 2
 
 ## Video introduction
+<video src="https://raw.githubusercontent.com/THAiTK2/Group-Project-COMP-2090SEF/main/asserts/video/task2.mp4" width="100%" controls>
+</video>
+
 
 
 ## Usesr Guide for python matrix :
