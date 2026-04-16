@@ -31,7 +31,7 @@ default is order by row
 ---
 
 ## Application of matrix : Adjacency Matrix for undirected graph 
-
+<p><img src="/assert/image/step_1.png" height="500" width="500"></p>
 
 
 
