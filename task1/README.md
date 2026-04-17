@@ -5,7 +5,7 @@ An application for university sport teams
 
 ## Video introduction
 [click this to watch the video in Google Drive ](https://drive.google.com/file/d/1TA1cZWbz0nNacvoHAkwpCX4l6Qf4zH0w/view?usp=drive_link)
-since the video size is too large than 25MB. we cannot embed the video into github
+<br>since the video size is too large than 25MB. we cannot embed the video into github
 
 ## Requirement 
 - Visual Studio Code
