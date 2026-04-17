@@ -2,6 +2,7 @@ import tkinter as tk
 from tkinter import messagebox
 from tkinter import ttk
 # pip install -r requirement.txt
+# pip install customtkinter
 
 # GUI check
 # it stop early with clear message so users know how to install missing package.
