@@ -62,3 +62,4 @@ py main.py
 ---
 
 ## Video introduction
+[點擊此處在 Google Drive 觀看影片](https://drive.google.com/file/d/1TA1cZWbz0nNacvoHAkwpCX4l6Qf4zH0w/view?usp=drive_link)
