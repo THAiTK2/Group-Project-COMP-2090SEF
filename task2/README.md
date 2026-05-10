@@ -3,7 +3,7 @@
 # COMP2090SEF Task 2
 
 ## Video introduction
-[click this to watch the video in Google Drive ](https://drive.google.com/file/d/1hCcJaOjyVVENd5tyBkIiokf_sdta4hkn/view?usp=drive_link)
+[click this to watch the video in Google Drive ]([https://drive.google.com/file/d/1hCcJaOjyVVENd5tyBkIiokf_sdta4hkn/view?usp=drive_link](https://drive.google.com/drive/folders/1AobwiWPJpvqmKytiDaQRUfuDMgFu2hHb?usp=sharing))
 <br>since the video file too large, it cannot embed in the readme. We put the video into ```assets/video``` folder
 
 
